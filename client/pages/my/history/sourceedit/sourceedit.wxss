@@ -1,0 +1,11 @@
+/* pages/my/history/sourceedit/sourceedit.wxss */
+@import "../../../source/newsource/newsource.wxss";
+.topic-prompt{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50rpx;
+}
+.topic-prompt-title{
+  font-size: 20rpx;
+  color: #B2B2B2;
+}

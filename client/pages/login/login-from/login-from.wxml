@@ -1,0 +1,27 @@
+<!--pages/login/login-from/login-from.wxml-->
+<view>
+  <view class="register">
+    <text class="register-title">手机快捷登录</text>
+  </view>
+</view>
+
+<view class="login-from">
+  <view class="input-view">
+    <input type="number" class="input-text input-width" placeholder="请输入手机号" />
+    <text class="get-code">获取验证码</text>
+  </view>
+  <view class="input-view">
+    <input type="text" class="input-text" placeholder="请输入验证码" />
+  </view>
+</view>
+<view class="tip">
+  <view class="tip-title">
+    <text>温馨提示：点击登录,即表示已阅读并同意</text>
+    <navigator hover-class="none" class="tip-service">《我要报料用户服务协议》</navigator>
+  </view>
+</view>
+<view class="btnbox">
+  <view>
+    <button class="btn-bule-real" type="primary">登录</button>
+  </view>
+</view>

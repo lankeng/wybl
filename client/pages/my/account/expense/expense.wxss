@@ -1,0 +1,2 @@
+/* pages/my/account/expense/expense.wxss */
+@import '../extractmoney/extractmoney.wxss';

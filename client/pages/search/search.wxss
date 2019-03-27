@@ -1,0 +1,73 @@
+/* pages/search/search.wxss */
+@import "../source/source-list/source-list-template.wxss";
+.page_row {
+  margin-top: 10rpx;
+  padding-bottom: 20rpx;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1rpx solid #d6d6db;
+}
+
+.search {
+  width: 82%;
+}
+
+.search_arr {
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+  background: #f5f5f5;
+}
+
+.search_arr input {
+  margin-left: 60rpx;
+  height: 60rpx;
+  border-radius: 5rpx;
+  font-size: 26rpx;
+}
+
+.sousuo {
+  margin-left: 15rpx;
+  width: 15%;
+  line-height: 150%;
+  text-align: center;
+  font-size: 32rpx;
+  color: #0097ff;
+  display: inline-block;
+}
+
+.searchcion {
+  margin: 10rpx 10rpx 10rpx 5rpx;
+  position: absolute;
+  left: 25rpx;
+  top: 16rpx;
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+/*状态为空下*/
+
+.empty-result {
+  margin-top: 200rpx;
+}
+
+.empty-result .empty-view {
+  width: 314rpx;
+  height: 314rpx;
+  background: #b7dff4;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.empty-view image{
+  width: 314rpx;
+  height: 314rpx;
+  border-radius: 50%;
+}
+.empty-result .empty-text {
+  margin-top: 42rpx;
+  display: block;
+  text-align: center;
+  font-size: 30rpx;
+  color: #999;
+}

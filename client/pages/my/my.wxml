@@ -1,0 +1,46 @@
+<view class="mybg">
+  <view class="personal" bindtap="personalbtn">
+    <view class="personal-img">
+      <image class="item-img" src="../../assets/images/icon_add.png"></image>
+    </view>
+    <view class="personal-name">
+      <view class="item-name">
+        <text>苏政宏</text>
+        <image src="../../assets/icons/xingbieman.png"></image>
+      </view>
+      <view class="real-name" catchtap="realname">
+        <text>未实名认证</text>
+      </view>
+    </view>
+  </view>
+  <view class="set-up" bindtap="seTup">
+    <text>修改资料</text>
+  </view>
+</view>
+
+<view class="line-height"></view>
+
+
+<view class='personal-content'>
+  <view class="personal-list" bindtap="personalAccount">
+    <text class="personal-list-text">个人账户</text>
+    <image class="personal-list-image" src="../../assets/icons/wodezhanghu.png"></image>
+  </view>
+  <view class="person-line"></view>
+  <view class="personal-list" bindtap="sourceHistory">
+    <text class="personal-list-text">报料历史</text>
+    <image class="personal-list-image" src="../../assets/icons/lishi.png"></image>
+  </view>
+  <view class="person-line"></view>
+  <view class="personal-list" bindtap="feedbackBtn">
+    <text class="personal-list-text">意见反馈</text>
+    <image class="personal-list-image" src="../../assets/icons/yijianfankui.png"></image>
+  </view>
+  <view class="person-line"></view>
+  <view class="personal-list">
+    <text class="personal-list-text">客服</text>
+    <text class='personal-list-text'>020-34340101</text>
+  </view>
+
+
+</view>

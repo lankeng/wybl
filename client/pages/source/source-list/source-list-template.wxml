@@ -1,0 +1,119 @@
+<template name="listmoduleTemplate">
+  <view class="listmodule">
+    <view class="list-box">
+      <view class="author-data">
+        <view class="author">苏正宏<image src="../../assets/icons/man.png" class="gender-img"></image></view>
+        <text class="line">科技</text>
+      </view>
+      <view class="newspaper">
+        <image src="../../assets/icons/icon_newspaper.png" class="newspaper-img"></image>
+        <text class="newspaper-text">新快报</text>
+      </view>
+      <view class="city-box">
+        <view class="city-mark">
+          <image src="../../assets/icons/icon_city.png" class="city-img"></image>
+          <text class="provinces">广东省</text>
+          <text class="city-data">广州市</text>
+          <text class="area">天河区</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  
+    <view class="listmodule">
+    <view class="list-box">
+      <view class="author-data">
+         <view class="author">苏正宏<image src="../../assets/icons/woman.png" class="gender-img"></image></view>
+        <text class="line">科技</text>
+      </view>
+      <view class="newspaper">
+        <image src="../../assets/icons/icon_newspaper.png" class="newspaper-img"></image>
+        <text class="newspaper-text">新快报</text>
+      </view>
+      <view class="city-box">
+        <view class="city-mark">
+          <image src="../../assets/icons/icon_city.png" class="city-img"></image>
+          <text class="provinces">广东省</text>
+          <text class="city-data">广州市</text>
+          <text class="area">天河区</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+
+
+    <view class="listmodule">
+    <view class="list-box">
+      <view class="author-data">
+         <view class="author">苏正宏<image src="../../assets/icons/woman.png" class="gender-img"></image></view>
+        <text class="line">科技</text>
+      </view>
+      <view class="newspaper">
+        <image src="../../assets/icons/icon_newspaper.png" class="newspaper-img"></image>
+        <text class="newspaper-text">新快报</text>
+      </view>
+      <view class="city-box">
+        <view class="city-mark">
+          <image src="../../assets/icons/icon_city.png" class="city-img"></image>
+          <text class="provinces">广东省</text>
+          <text class="city-data">广州市</text>
+          <text class="area">天河区</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+   <view class="listmodule">
+    <view class="list-box">
+      <view class="author-data">
+         <view class="author">苏正宏<image src="../../assets/icons/woman.png" class="gender-img"></image></view>
+        <text class="line">科技</text>
+      </view>
+      <view class="newspaper">
+        <image src="../../assets/icons/icon_newspaper.png" class="newspaper-img"></image>
+        <text class="newspaper-text">新快报</text>
+      </view>
+      <view class="city-box">
+        <view class="city-mark">
+          <image src="../../assets/icons/icon_city.png" class="city-img"></image>
+          <text class="provinces">广东省</text>
+          <text class="city-data">广州市</text>
+          <text class="area">天河区</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+
+
+  <view class="listmodule">
+    <view class="list-box">
+      <view class="author-data">
+         <view class="author">苏正宏<image src="../../assets/icons/woman.png" class="gender-img"></image></view>
+        <text class="line">科技</text>
+      </view>
+      <view class="newspaper">
+        <image src="../../assets/icons/icon_newspaper.png" class="newspaper-img"></image>
+        <text class="newspaper-text">新快报</text>
+      </view>
+      <view class="city-box">
+        <view class="city-mark">
+          <image src="../../assets/icons/icon_city.png" class="city-img"></image>
+          <text class="provinces">广东省</text>
+          <text class="city-data">广州市</text>
+          <text class="area">天河区</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+
+
+
+
+
+
+
+</template>

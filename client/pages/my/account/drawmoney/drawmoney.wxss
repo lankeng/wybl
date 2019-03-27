@@ -1,0 +1,105 @@
+/* pages/my/account/drawmoney/drawmoney.wxss */
+
+page {
+  background: #f5f5f5;
+}
+
+.drawmoney {
+  margin: 40rpx 30rpx;
+  background: #fff;
+  border-radius: 6rpx;
+}
+
+.drawmoney-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx 40rpx;
+}
+
+.bank-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-account {
+  font-size: 30rpx;
+  color: #000;
+}
+
+.card-type {
+  display: flex;
+  flex-direction: column;
+  padding-left: 85rpx;
+}
+
+.card-type-number {
+  color: #0097ff;
+  font-size: 30rpx;
+}
+
+.card-type-time {
+  padding-top: 30rpx;
+  font-size: 30rpx;
+  color: #999;
+}
+
+
+.money-box-title text {
+  display: inline-block;
+  padding-bottom: 20rpx;
+  font-size: 30rpx;
+  color: #000;
+}
+
+.money-symbol {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1rpx solid #ccc;
+  padding-bottom: 30rpx;
+}
+
+.money-symbol .symbol {
+  display: inline-block;
+  width: 52rpx;
+  height: 52rpx;
+  padding-top: 23rpx;
+}
+.money-symbol .symbol image{
+  width: 52rpx;
+  height: 52rpx;
+}
+
+.money-symbol .money-input {
+  padding-top: 10rpx;
+  padding-left: 10rpx;
+  height: 100rpx;
+  font-size: 102rpx;
+  font-weight: bold;
+}
+
+.money-prompt {
+  margin-top: 36rpx;
+  margin-bottom: 50rpx;
+}
+
+.money-prompt .prompt-balance {
+  font-size: 30rpx;
+  color: #999;
+}
+
+.money-prompt .extract-btn {
+  padding-left: 10rpx;
+  font-size: 30rpx;
+  color: #0097ff;
+}
+.drawmoney-btn{
+  margin: 0 30rpx;
+}
+.drawmoney-btn .drawmoney-btn-color {
+  background: #0097ff;
+  color: #fff;
+}
+
+button[disabled][type=primary] {
+  background-color: #93cff9;
+}

@@ -1,0 +1,92 @@
+@import '../../../citymdoel/citymdoel.wxss';
+page {
+  background:#fff;
+}
+
+.info-items {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #f5f5f5;
+  padding: 42rpx 20rpx 42rpx 30rpx;
+}
+
+.info-items::last-child {
+  border: none;
+}
+
+.info-items .info-title {
+  display: inline-block;
+  color: #333;
+  font-size: 30rpx;
+}
+.info-items-height{
+  padding:10rpx 20rpx 22rpx 30rpx;
+}
+
+.info-padding {
+  padding-top: 50rpx;
+}
+
+.userinfo-view {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.infoText{
+  margin-top: 0;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.infoText .userinfo-images {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  background: #0097ff;
+  margin-right: 20rpx;
+  background-size:"cover";
+}
+
+.infoText .menu-item-arrow {
+  position: relative;
+  top: 6rpx;
+  right: 0;
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.infoText .arrowright {
+  position: relative;
+  top: 45rpx;
+  right: 0;
+}
+
+.infoText .info-motto {
+  font-size: 30rpx;
+  color: #0097ff;
+  padding-right: 10rpx;
+}
+.infoText .info-input{
+  width: 100%;
+  font-size: 30rpx;
+  color: #0097ff;
+  padding-right: 40rpx;
+  text-align: right;
+}
+.seletor{
+  line-height: 40rpx;
+  text-align: right;
+}
+
+
+
+
+.outborder {
+  border-bottom: 0rpx;
+}
+
+.info-btn {
+  padding: 42rpx 40rpx;
+  margin: 0 -19rpx;
+}

@@ -1,0 +1,121 @@
+{
+	"client": "client/",
+	"svr": "server/",
+	"miniprogramRoot": "client/",
+	"qcloudRoot": "server/",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"appid": "wxee70af29e82e3e02",
+	"projectname": "%E6%88%91%E8%A6%81%E6%8A%A5%E6%96%991",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "登录",
+					"pathName": "pages/login/login-index/login-index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "登录表单",
+					"pathName": "pages/login/login-from/login-from",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "搜索",
+					"pathName": "pages/search/search",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "修改手机号1",
+					"pathName": "pages/my/editphone/editphone",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "修改地址",
+					"pathName": "pages/my/address/address",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "个人账户",
+					"pathName": "pages/my/account/account",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "报料历史",
+					"pathName": "pages/my/history/history",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "关于滴滴事件报料详情页",
+					"pathName": "pages/source/topicdetails/topicdetails",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "shimingrenz ",
+					"pathName": "pages/autonym/autonym",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "测试",
+					"pathName": "pages/ceshi/ceshi",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "稿件进度",
+					"pathName": "pages/source/topicdetails/topicdetails",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "零钱提现",
+					"pathName": "pages/my/account/drawmoney/drawmoney",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "编辑信息",
+					"pathName": "pages/my/editinfo/editinfo",
+					"query": ""
+				},
+				{
+					"id": 13,
+					"name": "实名认证",
+					"pathName": "pages/autonym/autonym",
+					"query": ""
+				}
+			]
+		}
+	}
+}

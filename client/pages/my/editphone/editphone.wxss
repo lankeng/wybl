@@ -1,0 +1,32 @@
+/* pages/my/editphone/editphone.wxss */
+page{
+  background: #f5f5f5;
+}
+
+.card-edit-input{
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  background: #fff;
+}
+.card-edit-inputnumber{
+  padding: 26rpx 30rpx;
+  font-size: 30rpx;
+}
+.card-line{
+  height: 22rpx;
+  background: #f5f5f5;
+}
+.card-code{
+  display: inline-block;
+  margin-top: 13rpx;
+  margin-right: 20rpx;
+  padding: 16rpx 36rpx;
+  font-size: 26rpx;
+  color: #fff;
+  background: #0097FF;
+  border-radius: 10rpx; 
+}
+.card-btn{
+  margin-top: 60rpx;
+}

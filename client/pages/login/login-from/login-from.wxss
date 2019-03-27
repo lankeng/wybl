@@ -1,0 +1,57 @@
+/* pages/login/login-from/login-from.wxss */
+
+.register {
+  margin: 76rpx 60rpx 46rpx;
+}
+
+.register .register-title {
+  display: block;
+  font-size: 56rpx;
+}
+
+.login-from {
+  margin: 0 60rpx;
+}
+
+.input-view {
+  display: flex;
+  justify-content: row;
+  padding: 40rpx 0;
+  border-bottom: 1rpx solid #eee;
+}
+
+.input-view .input-text {
+  font-size: 32rpx;
+  width: 100%;
+}
+
+.input-view .input-width {
+  width: 70%;
+}
+
+/*验证码*/
+
+.get-code {
+  padding: 2rpx 0;
+  width: 30%;
+  text-align: right;
+  font-size: 32rpx;
+  color: #808080;
+}
+
+.tip {
+  margin: 40rpx 30rpx;
+}
+
+.tip .tip-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 22rpx;
+  color: #999;
+  height: 50rpx;
+}
+
+.tip-title .tip-service {
+  color: #0097ff;
+}

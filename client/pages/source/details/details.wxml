@@ -1,0 +1,33 @@
+<!--pages/source/details/details.wxml-->
+<view class="details-box">
+  <view class="details">
+    <view class="author-data">
+      <view class="author">苏正宏
+        <image src="../../../assets/icons/woman.png" style='width:32rpx;height:32rpx;'></image>
+      </view>
+      <text class="line">科技</text>
+    </view>
+     <view class="newspaper">
+        <image src="../../../assets/icons/icon_newspaper.png" class="newspaper-img"></image>
+        <text class="newspaper-text">新快报</text>
+      </view>
+      <view class="city-box br">
+        <view class="city-mark">
+          <image src="../../../assets/icons/icon_city.png" class="city-img"></image>
+          <text class="provinces">广东省</text>
+          <text class="city-data">广州市</text>
+          <text class="area">天河区</text>
+        </view>
+      </view>
+      <view class="details-sort">
+       <view class="details-item"><text class="ranking">稿件指数</text><text class="number">185</text></view>
+       <view class="details-item"><text class="ranking">字数指数</text><text class="number">413135</text></view>
+       <view class="details-item"><text class="ranking">影响力指数</text><text class="number">4523</text></view>
+      </view>
+  </view>
+</view>
+<view class="btnbox">
+  <view>
+    <button class="btn-bule-real" type="primary">向Ta报料</button>
+  </view>
+</view>

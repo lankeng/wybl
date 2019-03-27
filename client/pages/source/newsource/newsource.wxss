@@ -1,0 +1,163 @@
+/* pages/source/newsource/newsource.wxss */
+
+.newsource{
+  margin: 40rpx 30rpx;
+}
+
+.section{
+  margin-bottom: 40rpx;
+}
+.section__title{
+  font-size: 30rpx;
+  padding-bottom: 6rpx;
+}
+.section__title .required{
+  font-size: 24rpx;
+  color: #999;
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+}
+.form-group .input-text{
+   padding-left: 20rpx;
+   height: 86rpx;
+   font-size: 30rpx;
+   border: 1rpx solid #AEAEAE;
+   border-radius: 8rpx;
+}
+.form-group .input-time{
+  padding-left: 20rpx;
+  height: 86rpx;
+  line-height: 86rpx;
+  border:1rpx solid #AEAEAE;
+  border-radius: 8rpx;
+  font-size: 30rpx;
+}
+.form-group .textarea-text{
+     padding-left: 17rpx;
+     padding-top: 10rpx;
+     width:97%; 
+     border:1rpx solid #aeaeae;
+     font-size:30rpx;
+     border-radius:6rpx;
+}
+.input-group{
+  display: flex;
+  flex-flow: flex-start;
+}
+.input-group text{
+  padding-left: 20rpx;
+  line-height: 86rpx;
+}
+
+.add-object{
+  display: flex;
+  justify-content: flex-end;
+}
+.add-object text{
+  margin-top: 20rpx;
+  padding: 10rpx 26rpx;
+  display: inline-block;
+  font-size: 30rpx;
+  color: #0097FF;
+  border: 1rpx solid #0097FF;
+  border-radius: 10rpx;
+}
+
+
+
+
+.form {
+  padding-left: 20rpx;
+  height: 86rpx;
+  line-height: 86rpx;
+  border:1rpx solid #AEAEAE;
+  margin:2px 0;
+  border-radius: 8rpx;
+  font-size: 30rpx;
+}
+.pick_datetime {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    overflow:hidden;
+    background: #fff;
+    z-index: 9999;
+    
+}
+.pick_datetime_tool {
+    display:flex;
+    justify-content:space-between;
+    height:92rpx;
+    line-height:92rpx;
+    border-top:4rpx solid #eee;
+    border-bottom:4rpx solid #eee;
+    padding:0 20rpx;
+    font-size: 36rpx;
+}
+.pick_datetime_ok {color: #1AAD16;}
+.pick_datetime_clear {color:#666;}
+.pick_datetime picker-view {
+    font-size:34rpx;
+}
+.pick_datetime_column {
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    background: #fff;
+    z-index: 9999;
+} 
+
+.source-state{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 10rpx;
+  border: 1rpx solid #ccc;
+}
+.source-state text{
+  padding: 8rpx 0;
+  font-size: 28rpx;
+}
+.source-state .state-status{
+  color: #E60101;
+}
+
+
+/*画廊*/
+.gallery {
+	/*margin-bottom: 100rpx;*/
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+/*每张图片所占容器*/
+.item-img {
+	position: relative;
+	margin: 29rpx;
+}
+.item-img .item-imgview{
+ width:116rpx;
+ height:116rpx;
+}
+/*删除按钮*/
+.delete {
+	position: absolute;
+	height: 40rpx;
+	bottom: 10rpx;
+	width: 100%;
+	background: #ccc;
+	opacity: .8;
+ 
+}
+
+.delete image {
+  display: block;
+  margin: 0 auto;
+	width: 50rpx;
+	height: 50rpx;
+ 
+}

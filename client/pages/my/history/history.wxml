@@ -1,0 +1,88 @@
+<!--pages/my/history/history.wxml-->
+<!--导航条-->
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+</view>
+<!--首页-->
+<view hidden="{{currentTab!==0}}">
+  <view class="history">
+    <view class="history-date">
+      <text class="tiem-text">2018年05月</text>
+    </view>
+    <view class="history-list" catchtap="sourcedit">
+      <view class="history-info">
+        <text class="history-title cell">吉林松原5.7级地震地震地震地震地震地震地震</text>
+        <text class="history-tiem">05-30 18:00</text>
+      </view>
+      <view class="history-star">
+        <text class="history-author">作者：苏政宏</text>
+        <text class="history-state">状态：未回复</text>
+      </view>
+    </view>
+    <view class="history-list">
+      <view class="history-info">
+        <text class="history-title cell">吉林松原5.7级地震</text>
+        <text class="history-tiem">05-30 18:00</text>
+      </view>
+      <view class="history-star">
+        <text class="history-author">作者：苏政宏</text>
+        <text class="history-state">状态：已接受</text>
+      </view>
+    </view>
+    <view class="history-date">
+      <text class="tiem-text">2018年05月</text>
+    </view>
+    <view class="history-list" catchtap="completed">
+      <view class="history-info">
+        <text class="history-title cell">吉林松原5.7级地震</text>
+        <text class="history-tiem">05-30 18:00</text>
+      </view>
+      <view class="history-star">
+        <text class="history-author">作者：苏政宏</text>
+        <text class="history-state">状态：待结算</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!--搜索-->
+<view hidden="{{currentTab!==1}}">
+  <view class="history">
+    <view class="history-date">
+      <text class="tiem-text">2018年12月</text>
+    </view>
+    <view class="history-list" catchtap="completed">
+      <view class="history-info">
+        <text class="history-title cell">天津河西区城市大厦火灾事故火灾事故火灾事故</text>
+        <text class="history-tiem">05-30 18:00</text>
+      </view>
+      <view class="history-star">
+        <text class="history-author">作者：苏政宏</text>
+        <text class="history-state">状态：已完成</text>
+      </view>
+    </view>
+    <view class="history-list">
+      <view class="history-info">
+        <text class="history-title cell">天津河西区城市大厦火灾事故</text>
+        <text class="history-tiem">05-30 18:00</text>
+      </view>
+      <view class="history-star">
+        <text class="history-author">作者：苏政宏宏</text>
+        <text class="history-state">状态：已完成</text>
+      </view>
+    </view>
+    <view class="history-date">
+      <text class="tiem-text">2018年05月</text>
+    </view>
+    <view class="history-list">
+      <view class="history-info">
+        <text class="history-title cell">天津河西区城市大厦火灾事故</text>
+        <text class="history-tiem">05-30 18:00</text>
+      </view>
+      <view class="history-star">
+        <text class="history-author">作者：苏政宏</text>
+        <text class="history-state">状态：已完成</text>
+      </view>
+    </view>
+  </view>
+</view>

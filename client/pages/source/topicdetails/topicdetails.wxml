@@ -1,0 +1,34 @@
+<!--pages/source/topicdetails/topicdetails.wxml-->
+<view class="topicdetails">
+  <view class="topic-line">
+    <text class="topic-title">选题标题:</text>
+    <text class="topic-content">梁文道先生在青少年时期完整的经历和见识了中国历史上最深刻的变革之一。</text>
+  </view>
+  <view class="topic-line">
+    <text class="topic-title">选题内容:</text>
+    <text class="topic-content {{isChecked?'normal':'ellcontent'}}">作为一名名声在外的台湾人，梁文道先生的基本素养一定是有的。而且作为70年代出生的香港人，后转入台湾，他在青少年时期完整的经历和见识了中国历史上最深刻的变革之一，这对他们的人生认知非常有帮助。作为一名名声在外的台湾人，梁文道先生的基本素养一定是有的。而且作为70年代出生的香港人，后转入台湾，他在青少年时期完整的经历和见识了中国历史上最深刻的变革之一，这对他们的人生认知非常有帮助。</text>
+    <text wx:if="{{isFunll}}" class="more" bindtap="moreswitch">更多</text>
+    <text wx:else class="more" bindtap="moresPackup">收起</text>
+  </view>
+  <view class="topic-line">
+    <text class="topic-title">附件:</text>
+    <view class="topic-Imgs">
+      <image class="topic-img"></image>
+      <image class="topic-img"></image>
+      <image class="topic-img"></image>
+    </view>
+  </view>
+  <view class="topic-line">
+    <text class="topic-title">稿件进度状态:</text>
+    <view class="not-available">
+      <text class="not-empty">暂未上传</text>
+    </view>
+    <view class="has-available">
+      <text class="has-title">滴滴顺风车公关深度稿件滴滴顺风车公关深度稿件</text>
+      <text class="has-view">点击查看</text>
+    </view>
+  </view>
+  <view class="topic-prompt">
+   <text class="topic-prompt-title">注：记者完成稿件后，将支付您报料费100元</text>
+  </view>
+</view>

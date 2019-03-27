@@ -1,0 +1,91 @@
+page{
+  background: #F5F5F5;
+}
+.mybg{
+  width: 100%;
+  height:322rpx;
+  background:#0097FF;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.personal{
+  display: flex;
+  flex-direction: row;
+  padding-left: 74rpx;
+  margin-top: 90rpx;
+}
+
+.personal-img{
+  width: 120rpx;
+  height: 120rpx;
+  background: #fff;
+  border-radius: 50%;
+}
+.personal-img .item-img{
+  display: inline-block;
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+.personal-name{
+  display: flex;
+  flex-direction: column;
+  padding-left: 30rpx;
+}
+.item-name {
+  margin-bottom: 10rpx;
+}
+.item-name text{
+  font-size: 36rpx;
+  color: #fff;
+}
+.item-name image{
+  padding-left: 10rpx;
+  width: 32rpx;
+  height: 32rpx;
+}
+.real-name text{
+  padding: 7rpx 8rpx;
+  font-size: 24rpx;
+  color: #fff;
+  border: 1rpx solid #fff;
+  border-radius: 6rpx;
+}
+
+.set-up{
+  margin-top: 50rpx;
+  padding-right: 42rpx;
+}
+.set-up text{
+  font-size: 30rpx;
+  color: #fff;
+  
+} 
+
+
+.personal-content{
+  background: #fff;
+  padding: 0 40rpx;
+}
+.personal-list{
+  display: flex;
+  justify-content: space-between;
+  padding: 56rpx 0;
+  
+}
+.personal-list .personal-list-text{
+   font-size: 30rpx;
+   color: #333;
+}
+.personal-list .personal-list-image{
+  margin-top: 6rpx;
+  width: 32rpx;
+  height: 32rpx;
+}
+.person-line {
+  width: 100%;
+  height: 2rpx;
+  background: #f5f5f5;
+ 
+}

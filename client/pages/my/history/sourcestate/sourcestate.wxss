@@ -1,0 +1,25 @@
+/* pages/my/history/sourcestate/sourcestate.wxss */
+@import "../../../source/topicdetails/topicdetails.wxss";
+.source-state{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 10rpx;
+  border: 1rpx solid #ccc;
+}
+.source-state text{
+  padding: 8rpx 0;
+  font-size: 28rpx;
+}
+.source-state .state-status{
+  color: #E60101;
+}
+.check-state{
+  text-align: right;
+}
+.check-state text{
+  display: inline-block;
+  font-size: 30rpx;
+  color: #0097FF;
+  padding: 6rpx;
+}

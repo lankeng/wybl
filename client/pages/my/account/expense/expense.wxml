@@ -1,0 +1,39 @@
+<!--pages/my/account/expense/expense.wxml-->
+<view class="history">
+    <view class="history-date">
+      <text class="tiem-text">2018年05月</text>
+    </view>
+    <view class="history-list">
+      <view class="history-info">
+        <text class="history-title cell">滴滴顺风车事件滴滴顺风车事件</text>
+        <text class="history-tiem">05-30 18:00</text>
+      </view>
+      <view class="history-star">
+        <text class="history-author">作者：郝家祥</text>
+        <text class="history-state">+20</text>
+      </view>
+    </view>
+    <view class="history-list">
+      <view class="history-info">
+        <text class="history-title cell">滴滴顺风车事件</text>
+        <text class="history-tiem">05-30 18:00</text>
+      </view>
+      <view class="history-star">
+        <text class="history-author">作者：张建</text>
+        <text class="history-state">+5000</text>
+      </view>
+    </view>
+    <view class="history-date">
+      <text class="tiem-text">2018年05月</text>
+    </view>
+    <view class="history-list">
+      <view class="history-info">
+        <text class="history-title cell">滴滴顺风车事件</text>
+        <text class="history-tiem">05-30 18:00</text>
+      </view>
+      <view class="history-star">
+        <text class="history-author">作者：徐海文</text>
+        <text class="history-state">+200</text>
+      </view>
+    </view>
+  </view>

@@ -1,0 +1,99 @@
+<!--pages/source/newsource/newsource.wxml-->
+<view>
+  <view class="newsource">
+    <form class="">
+      <view class="section">
+        <view class="section__title">
+          <text class="colorred">*</text>报料标题(5-30字):
+          <text class="required">(*为必填项)</text>
+        </view>
+        <view class="form-group">
+          <input type="text" class="input-text" name="username" placeholder="请输入报料标题" />
+        </view>
+      </view>
+      <view class="section">
+        <view class="section__title">
+          <text class="colorred">*</text>报料内容(5-300字):
+          <text class="required">(*为必填项)</text>
+        </view>
+        <view class="form-group">
+          <textarea class='textarea-text' placeholder="请输入报料内容"></textarea>
+        </view>
+      </view>
+
+
+      <view class="section">
+        <view class="section__title">
+          <text class="colorred">*</text>附件:
+        </view>
+        <view class="form-group">
+          <view class="gallery">
+            <view class="item-img" wx:for="{{images}}" wx:key="">
+              <image class="item-imgview" src=" {{item}}" data-idx="{{index}}" bindtap="handleImagePreview" mode="aspectFill" />
+              <!-- 删除按钮 -->
+              <view class="delete" bindtap="removeImage" data-idx="{{index}}">
+                <image class="item-imgdelete" src="../../../assets/images/icon_delete.png" />
+              </view>
+            </view>
+            <view class="item-img">
+              <image src="../../../assets/images/icon_add.png" class="button-upload item-imgview" bindtap="chooseImage" />
+            </view>
+          </view>
+        </view>
+      </view>
+
+
+
+      <view class="section">
+        <view class="section__title">
+          <text class="colorred">*</text>有效时间
+        </view>
+        <view class="form-group">
+          <view class="input-time form" bindtap="startTap" name="username">{{startDate}}</view>
+        </view>
+      </view>
+
+
+      <view class="section">
+        <view class="section__title">
+          <text class="colorred">*</text>报料对象
+        </view>
+        <view class="form-group">
+          <!-- <input type="text" class="input-text" name="username" /> -->
+          <view class="source-state">
+            <text class="state-name">郝家祥</text>
+            <text class="state-type">羊城晚报羊城晚报</text>
+            <text class="state-status">已接受</text>
+          </view>
+        </view>
+        <view class="add-object">
+          <text>添加采访对象</text>
+        </view>
+      </view>
+
+
+      <view class="section">
+        <view class="section__title">
+          <text class="colorred">*</text>希望对方支付多少报料费?
+        </view>
+        <view class="form-group">
+          <view class='input-group'>
+            <input type="text" class="input-text" name="username"  />
+            <text>元</text>
+          </view>
+        </view>
+      </view>
+
+
+
+      <view class="btnbox btnempty">
+        <view>
+          <button class="btn-bule-real" type="primary">确认发送</button>
+        </view>
+      </view>
+
+
+    </form>
+  </view>
+</view>
+<include src="../../tools/wxml/picker_datetime.wxml" />

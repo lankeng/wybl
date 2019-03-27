@@ -1,0 +1,106 @@
+<!--pages/my/history/sourceedit/sourceedit.wxml-->
+<view>
+  <view class="newsource">
+    <form class="">
+      <view class="section">
+        <view class="section__title">
+          <text>报料标题:</text>
+        </view>
+        <view class="form-group">
+          <input type="text" class="input-text" name="username" placeholder="请输入报料标题" value="梁文道先生在青少年时期完整的经历和见识了中国历史上最深刻的变革之一。" />
+        </view>
+      </view>
+      <view class="section">
+        <view class="section__title">
+          <text>报料内容:</text>
+        </view>
+        <view class="form-group">
+          <textarea class='textarea-text' placeholder="请输入报料内容">作为一名名声在外的台湾人，梁文道先生的基本素养一定是有的。而且作为70年代出生的香港人，后转入台湾，他在青少年时期完整的经历和见识了中国历史上最深刻的变革之一，这对他们的人生认知非常有帮助。
+          </textarea>
+        </view>
+      </view>
+
+
+      <view class="section">
+        <view class="section__title">
+          <text>附件:</text>
+        </view>
+        <view class="form-group">
+          <view class="gallery">
+            <view class="item-img" wx:for="{{images}}" wx:key="">
+              <image class="item-imgview" src=" {{item}}" data-idx="{{index}}" bindtap="handleImagePreview" mode="aspectFill" />
+              <!-- 删除按钮 -->
+              <view class="delete" bindtap="removeImage" data-idx="{{index}}">
+                <image class="item-imgdelete" src="../../../../assets/images/icon_delete.png" />
+              </view>
+            </view>
+            <view class="item-img">
+              <image src="../../../../assets/images/icon_add.png" class="button-upload item-imgview" bindtap="chooseImage" />
+            </view>
+          </view>
+        </view>
+      </view>
+
+
+
+      <view class="section">
+        <view class="section__title">
+          <text>有效时间</text>
+        </view>
+        <view class="form-group">
+          <view class="input-time form" bindtap="startTap" name="username">{{startDate}}</view>
+        </view>
+      </view>
+
+
+      <view class="section">
+        <view class="section__title">
+          <text>报料对象</text>
+        </view>
+        <view class="form-group">
+          <view class="source-state">
+            <text class="state-name">郝家祥</text>
+            <text class="state-type">羊城晚报羊城晚报</text>
+            <text class="state-status">已接受</text>
+          </view>
+          <view class="source-state">
+            <text class="state-name">郝家祥</text>
+            <text class="state-type">羊城晚报羊城晚报</text>
+            <text class="state-status">已接受</text>
+          </view>
+        </view>
+        <view class="add-object">
+          <text>添加采访对象</text>
+        </view>
+      </view>
+
+
+      <view class="section">
+        <view class="section__title">
+          <text class="colorred">希望对方支付多少报料费?</text>
+        </view>
+        <view class="form-group">
+          <view class='input-group'>
+            <input type="text" value="100元" class="input-text" name="username" />
+            <text>元</text>
+          </view>
+        </view>
+      </view>
+
+
+
+      <view class="btnbox btnempty">
+        <view>
+          <button class="btn-bule-real" type="primary">重新发送报料</button>
+        </view>
+      </view>
+
+      <view class="topic-prompt">
+        <text class="topic-prompt-title">本报料已过期，你可以重新选择有效时间、报料对象、报料费用发起报料。</text>
+      </view>
+
+
+    </form>
+  </view>
+</view>
+<include src="../../../tools/wxml/picker_datetime.wxml" />

@@ -1,0 +1,53 @@
+{
+  "pages":[
+    "pages/source/source",
+    "pages/my/my",
+    "pages/my/account/drawmoney/drawmoney",
+    "pages/my/account/extractmoney/extractmoney",
+    "pages/my/account/expense/expense",
+    "pages/my/history/history",
+    "pages/my/history/sourceedit/sourceedit",
+    "pages/my/history/sourcestate/sourcestate",
+    "pages/my/editinfo/editinfo",
+    "pages/my/account/account",
+    "pages/my/feedback/feedback",
+    "pages/my/editphone/editphone",
+    "pages/my/editphone/newsphone/newsphone",
+    "pages/autonym/autonym",
+    "pages/source/topicdetails/topicdetails",
+    "pages/source/newsource/newsource",
+    "pages/source/details/details",
+    "pages/login/login-index/login-index",
+    "pages/login/login-from/login-from",
+    "pages/search/search",
+    "pages/index/index",
+    "pages/addCgi/addCgi"
+  ],
+  "window":{
+    "backgroundColor":"#FFF",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFF",
+    "navigationBarTitleText": "我要报料",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#0097ff",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/source/source",
+        "text": "报料",
+        "iconPath": "assets/tabs/biaoliao.png",
+        "selectedIconPath": "assets/tabs/baoliao_active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath":"assets/tabs/my.png",
+        "selectedIconPath":"assets/tabs/my_active.png"
+      }
+    ]
+  }
+}

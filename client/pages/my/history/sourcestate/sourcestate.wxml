@@ -1,0 +1,47 @@
+<!--pages/my/history/sourcestate/sourcestate.wxml-->
+<view class="topicdetails">
+  <view class="topic-line">
+    <text class="topic-title">选题标题:</text>
+    <text class="topic-content">梁文道先生在青少年时期完整的经历和见识了中国历史上最深刻的变革之一。</text>
+  </view>
+  <view class="topic-line">
+    <text class="topic-title">选题内容:</text>
+    <text class="topic-content {{isChecked?'normal':'ellcontent'}}">作为一名名声在外的台湾人，梁文道先生的基本素养一定是有的。而且作为70年代出生的香港人，后转入台湾，他在青少年时期完整的经历和见识了中国历史上最深刻的变革之一，这对他们的人生认知非常有帮助。作为一名名声在外的台湾人，梁文道先生的基本素养一定是有的。而且作为70年代出生的香港人，后转入台湾，他在青少年时期完整的经历和见识了中国历史上最深刻的变革之一，这对他们的人生认知非常有帮助。</text>
+    <text wx:if="{{isFunll}}" class="more" bindtap="moreswitch">更多</text>
+    <text wx:else class="more" bindtap="moresPackup">收起</text>
+  </view>
+  <view class="topic-line">
+    <text class="topic-title">附件:</text>
+    <view class="topic-Imgs">
+      <image class="topic-img"></image>
+      <image class="topic-img"></image>
+      <image class="topic-img"></image>
+    </view>
+  </view>
+  <view class="topic-line">
+    <text class="topic-title">有效时间:</text>
+    <text class="topic-content">2018/05/28  16:00</text>
+  </view>
+  <view class="topic-line">
+    <text class="topic-title">报料对象:</text>
+    <view class="source-state">
+      <text class="state-name">郝家祥</text>
+      <text class="state-type">羊城晚报羊城晚报</text>
+      <text class="state-status">已接受</text>
+    </view>
+    <view class="source-state">
+      <text class="state-name">郝家祥</text>
+      <text class="state-type">羊城晚报羊城晚报</text>
+      <text class="state-status">已接受</text>
+    </view>
+    <view class="check-state">
+     <text>点击查看本次报料的选题及稿件进度</text>
+    </view>
+  </view>
+
+  <view class="topic-line">
+    <text class="topic-title">希望对方支付多少报料费:</text>
+    <text class="topic-content">100 元</text>
+  </view>
+
+</view>

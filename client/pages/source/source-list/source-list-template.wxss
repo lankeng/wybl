@@ -1,0 +1,76 @@
+/*列表*/
+.source-liet{
+  padding-top:190rpx;
+}
+.list-box{
+  margin: 0 30rpx;
+  border-bottom: 1px solid #f5f5f5;
+  display: flex;
+  flex-direction: column;
+}
+.author-data{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20rpx;
+}
+.author-data .author{
+   color: #000000;
+   font-size: 36rpx;
+   font-weight: bold;
+   
+}
+ .author .gender-img{
+  display: inline-block;
+  width:32rpx;
+  height: 32rpx;
+  padding-left: 10rpx;
+ 
+}
+.author-data .line{
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #FE5C55;
+}
+.newspaper{
+  display: flex;
+  flex-direction: row;
+  padding-top: 12rpx;
+}
+.newspaper .newspaper-img{
+  display: inline-block;
+  width: 32rpx;
+  height: 32rpx;
+  padding-right: 10rpx;
+  padding-top: 4rpx;
+}
+.newspaper .newspaper-text{
+  font-size: 30rpx;
+  color: #666;
+}
+
+.city-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 30rpx;
+  color: #666;
+  padding: 12rpx 0 30rpx;
+}
+.city-box .city-img{
+  display: inline-block;
+  width: 32rpx;
+  height: 32rpx;
+  padding-right: 10rpx;
+  padding-top: 4rpx;
+}
+.city-data,.area{
+  margin-left: 20rpx;
+}
+.city-btn text{
+  padding: 14rpx 36rpx;
+  color: #0097FF;
+  font-size: 26rpx;
+  border-radius: 10rpx;
+  border: 2rpx solid #0097FF;
+}
